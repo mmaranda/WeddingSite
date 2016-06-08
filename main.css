@@ -521,6 +521,9 @@ li.right,
 	-ms-transition: all 0.4s ;
 	transition: all 0.4s ;
 }
+.stdImg {
+	max-width: 100% !important ;
+}
 .feature-box:hover .box-content{ 
 	box-shadow: 0px 5px 0px #f22836 inset, 0px -5px 0px #f22836 inset;
 	-moz-box-shadow: 0px 5px 0px #f22836 inset, 0px -5px 0px #f22836 inset;
@@ -714,6 +717,8 @@ li.right,
 	font-size: 11px;
 	font-weight: 700;
 	text-transform: uppercase;
+	max-width: 100%;
+
 }
 .title{ padding: 40px 0 40px 0; text-align: center;}
 .title h2{ text-transform: uppercase;}
@@ -746,7 +751,7 @@ ul.work li{ margin-bottom: 30px; }
 .flex-direction-nav a { top: 50%; margin: -22px auto; position:relative;}
 .flex-direction-nav { margin: auto;	text-align: center; }
 .flex-direction-nav li{ display: inline-block; margin: 0 5px -8px 5px;}
-.hoveritem {  font-size: 12px;  position: relative;  overflow: hidden;  line-height: 0;}
+.hoveritem {  font-size: 12px;  position: relative;  overflow: hidden;  line-height: 0; max-width: 100%;}
 .hoveritem img {	position: relative;	z-index: 4;	max-width: 100%; }
 .hoveritem .link { display: block; }
 .hovercontent {
